@@ -16,3 +16,7 @@ weekly data project in R.
 ### Week 3: Common Passwords
 
 ![](images/Week3_PasswordsPlot.png)
+
+### Week 13: Common Passwords
+
+![](images/Week13_TBI.png)
