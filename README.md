@@ -13,10 +13,10 @@ weekly data project in R.
 
 ![](images/Week47_NZBirdsOfTheYear_TimePlot.png)
 
-### Week 3: Common Passwords
-
-![](images/Week3_PasswordsPlot.png)
-
-### Week 13: Common Passwords
+### Week 13: Traumatic Brain Injuries
 
 ![](images/Week13_TBI.png)
+
+### Week 14: Beer Production in the US
+
+![](images/Week14_Increase_StateBeerProd.png)![](images/Week14_Decrease_StateBeerProd.png)
