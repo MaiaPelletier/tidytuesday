@@ -62,7 +62,7 @@ p <-
     x = NULL,
     y = NULL,
     title = "Body Mass of Palmer Penguins",
-    subtitle = "Gentoo penguins tend to skew on the chonkier side as compared to their neighbours, the Adelie & Chinstrap penguins.",
+    subtitle = "Gentoo penguins tend to skew on the chonkier side as compared to their neighbours, the Adélie & Chinstrap penguins.",
     caption = "@MaiaPelletier | #TidyTuesday | Source: Gorman, Williams and Fraser, 2014 | Artwork by @allison_horst"
   ) +
   facet_wrap(species~., ncol = 1) +
@@ -72,7 +72,7 @@ p <-
   theme(
     rect = element_rect(fill = kraken_pal["dark"]),
     text = element_text(color = kraken_pal["off_white"],
-                        family = "Raleway"),
+                        family = "Lora"),
     plot.title = element_text(hjust = 0.5, size = 14),
     plot.subtitle = element_text(hjust = 0.5, size = 8, margin = margin(0, 0, 20, 0)),
     plot.caption = element_text(size = 6),
@@ -85,11 +85,11 @@ p <-
 # Amazing penguin designs by the incredible @allison_horst
 ggdraw(p) +
   draw_image(here("images", "penguins", "adelie_penguin_blue.png"), x = 0.8, y = 0.61, height = 0.1, width = 0.1) +
-  draw_label("Adelie", x = 0.85, y = 0.73, size = 10, color = kraken_pal["off_white"], fontfamily = "Raleway") +
+  draw_label("Adélie", x = 0.85, y = 0.73, size = 10, color = kraken_pal["off_white"], fontfamily = "Lora") +
   draw_image(here("images", "penguins", "chinstrap_penguin_blue.png"), x = 0.8, y = 0.34, height = 0.1, width = 0.1) +
-  draw_label("Chinstrap", x = 0.85, y = 0.455, size = 10, color = kraken_pal["off_white"], fontfamily = "Raleway") +
+  draw_label("Chinstrap", x = 0.85, y = 0.455, size = 10, color = kraken_pal["off_white"], fontfamily = "Lora") +
   draw_image(here("images", "penguins", "gentoo_penguin_blue.png"), x = 0.1, y = 0.07, height = 0.1, width = 0.1) +
-  draw_label("Gentoo", x = 0.155, y = 0.185, size = 10, color = kraken_pal["off_white"], fontfamily = "Raleway") +
+  draw_label("Gentoo", x = 0.155, y = 0.185, size = 10, color = kraken_pal["off_white"], fontfamily = "Lora") +
   ggsave(here("images", "progress", "imgs_week31", paste0(format(Sys.time(), "%Y%m%d_%H%M%S"), ".png")), type = 'cairo')
 
 
