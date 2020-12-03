@@ -80,7 +80,7 @@ p <-
 ggdraw(p) +
   draw_label("Toronto\nShelter\nOccupancy", x = 0.3, y = 0.875,
              fontfamily = "Lato", size = 20, hjust = 1, fontface = "bold", color = "grey20") +
-  draw_label("The average percentage of\noccupants compared to the\ncapcity of shelters in the City\nof Toronto, evaluated by postal\nregions (first 3 characters of\nthe shelter's postal code).", 
+  draw_label("The average percentage of\noccupants compared to the\ncapacity of shelters in the City\nof Toronto, evaluated by postal\nregions (first 3 characters of\nthe shelter's postal code).", 
              x = 0.32, y = 0.87, color = "grey60",
              fontfamily = "Lato", size = 8, hjust = 0) +
   draw_label("NORTH YORK", x = 0.45, y = 0.625, 
