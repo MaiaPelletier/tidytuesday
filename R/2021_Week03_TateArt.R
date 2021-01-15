@@ -21,17 +21,6 @@ extrafont::loadfonts(device = "win")
 artwork <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-12/artwork.csv')
 artists <- readr::read_csv("https://github.com/tategallery/collection/raw/master/artist_data.csv")
 
-# define the kandinsky palette with the desired values
-kandinsky_palette <- c(
-  Dark = make_kandinsky_palette[2],
-  Grey = make_kandinsky_palette[3],
-  make_kandinsky_palette[4],
-  make_kandinsky_palette[11],
-  make_kandinsky_palette[6],
-  make_kandinsky_palette[7],
-  make_kandinsky_palette[9]
-)
-
 # count the artists works & randomly assign an x/y value
 
 set.seed(44)
@@ -52,6 +41,18 @@ top_artists <-
 # make_kandinsky_palette <- 
 #   get_colors("https://www.phaidon.com/resource/kandinsky-circles.jpg") %>% 
 #   make_palette(n = 15)
+                
+
+# define the kandinsky palette with the desired values
+kandinsky_palette <- c(
+  Dark = make_kandinsky_palette[2],
+  Grey = make_kandinsky_palette[3],
+  make_kandinsky_palette[4],
+  make_kandinsky_palette[11],
+  make_kandinsky_palette[6],
+  make_kandinsky_palette[7],
+  make_kandinsky_palette[9]
+)
 
 
 # main plot building
